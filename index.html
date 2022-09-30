@@ -2,12 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/cash2.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Caixa Eletrônico</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="content-body">
+        <div id="logo-plus-text">
+            <img src="/cash2.svg" class="logo" alt="logo" />
+            <h1>Saque 24h</h1>
+        </div>
+        <form id="form" onsubmit="receiveWithdrawRequest()">
+            <h4>Digite o valor do saque</h4>
+            <input type="number" placeholder="Valor" class="title" required>
+            <button type="submit" id="confirm-button">Solicitar saque</button>
+            <h6 id="helper-text">* Notas: R$1, R$5, R$10, R$50 e R$100</h6>
+        </form>
+      </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
