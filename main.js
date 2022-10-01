@@ -5,9 +5,10 @@ window.onload = () => {
     const form = document.querySelector('#form');
     form.addEventListener('submit', (e) => {
         clearEvents(e);
-        receiveWithdrawRequest()});
+        receiveWithdrawRequest()
+    });
 
-    async function receiveWithdrawRequest(e) {
+    async function receiveWithdrawRequest() {
         const helperText = document.querySelector('#helper-text');
         helperText.innerText = 'Verificando...';
         const input = document.querySelector("#withdraw-input");
