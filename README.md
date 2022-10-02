@@ -10,6 +10,7 @@
 
 <h4 align = "center">
    <a href="https://desafio-asseinfo.vercel.app/">DEPLOY >></a>
+   <a href="https://github.com/igorbrasilc/desafio-asseinfo-react">Projeto em React JS >></a>
 </h4>
 
 ##  :clipboard: Descrição
